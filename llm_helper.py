@@ -5,7 +5,7 @@ import re
 # --- 🔑 CONFIGURATION ---
 # 1. Get a Key: https://openrouter.ai/keys
 # 2. Paste it below inside the quotes (No spaces!)
-API_KEY = "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"
+API_KEY = "API Key"
 
 # OpenRouter Configuration
 BASE_URL = "https://openrouter.ai/api/v1"
@@ -86,4 +86,5 @@ def get_cypher_query(user_question):
 
     except Exception as e:
         print(f"   [Error] Request Failed: {e}")
+
         return None
